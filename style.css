@@ -1,0 +1,58 @@
+.header-img {
+    background: url('https://cdn.britannica.com/01/81401-050-8EB87030/planets-solar-system-Pluto-montage-images-Sun.jpg');
+    height: 400px;
+    position: relative;
+    z-index: 1;
+}
+
+.header-blur {
+
+    position: absolute;
+    backdrop-filter: blur(7px);
+    width: 100%;
+    height: 100%;
+}
+
+.header-title {
+    position: absolute;
+    top: 50%;
+    ;
+    font-size: 26pt;
+    text-align: center;
+    color: white;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.main{
+
+    margin: 20px 0 20px 0;
+height: auto;
+}
+.footer-div{
+    position: relative;
+    backdrop-filter:blur(7px);
+    width: 100%;
+    height: 70px;
+    background: rgba(0, 0, 0, 1);
+}
+.footer-text{
+    position: absolute; top:50%;;
+    font-size: 14pt;
+    text-align: center;
+    color: white;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.coolList{
+    list-style: none;
+}
+.colorPicker{
+
+    position: absolute;
+    right: 1%;
+}
+.authHrefs{
+    position: absolute;
+    right: 15%;
+    color: white;
+}
